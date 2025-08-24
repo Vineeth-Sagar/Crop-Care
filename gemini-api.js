@@ -1,5 +1,5 @@
 // Gemini API Configuration
-const GEMINI_API_KEY = 'AIzaSyATYXzUlwIlyW8fO7fbwVPqA8n-gK8fxBA';
+const GEMINI_API_KEY = '';
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 // Function to analyze crop, soil, and location combination
@@ -142,4 +142,5 @@ function formatSectionContent(content) {
             return `<p>${line.trim()}</p>`;
         })
         .join('');
+
 } 
